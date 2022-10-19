@@ -1,0 +1,20 @@
+
+<h2>Data Binding</h2>
+<!-- interpolation -->
+<h3>{{sampleText}}</h3> <br>
+
+<!-- property bindingor attribute binding  -->
+<a [href]="link" class="btn btn-link">Go to You tube</a> <br><br>
+
+<!-- <img [src]=""/> -->
+
+
+<!-- event binding  -->
+<button class="btn btn-primary" (click)="clickEvent()"> Submit </button> <br><br>
+
+
+<!-- two way data binding  -->
+
+Please Enter Your Name: <input type="text" name="fullName" [(ngModel)]="fullName"> <br><br>
+
+Your Name is : <b>{{fullName}}</b><p>binding works!</p>
